@@ -110,6 +110,7 @@ h3{
 
 .CTA-button{
     background-color: #191A23;
+    color:#FFFFFF
     /* border-radius: ; */
 }
 
@@ -152,7 +153,11 @@ h3{
     background-color: #F3F3F3;
 }
 
-
+.Process-item p{
+    font-size: 60px;
+    line-height: 76.5px;
+    font-weight: 500;
+}
 
 
 
