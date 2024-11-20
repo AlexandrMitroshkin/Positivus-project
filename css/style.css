@@ -1,0 +1,250 @@
+/* Общие стили !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+body{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    line-height: 23px;
+    color:#000000
+}
+
+a{
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration: none;
+    color:#000000
+}
+
+h1{
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 76.5px;
+}
+
+h2{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 51px;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+}
+
+
+/* Конретные стили !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+
+/* page-header!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.page-header-nav-button{
+    border:1px #191A23 solid;
+    /* border-radius: ; */
+}
+
+
+
+
+/* Consultation!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.Consultation-button{
+    background-color: #191A23;
+    color:#FFFFFF
+    /* border-radius: ; */
+}
+
+.Consultation p {
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+
+
+
+/* Services!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.Services h2{
+    background-color: #B9FF66;
+    /* border-radius: ; */
+}
+
+.Service-1 , .Service-4{
+    background-color:#F3F3F3 ;
+}
+
+.Service-2 , .Service-5{
+    background-color: #B9FF66;
+}
+
+.Service-3 , .Service-6 {
+    background-color:#191A23;
+}
+
+.Service-1-title , .Service-4-title , .Service-6-title{
+    background-color: #B9FF66;
+}
+
+.Service-3-title , .Service-6-title{ 
+    background-color: #FFFFFF;
+}
+
+.Service-1-button , .Service-2-button , .Service-4-button , .Service-5-button{
+    color: #000000;
+}
+
+.Service-3-button , .Service-6-button{
+    color:#FFFFFF;
+}
+
+
+
+
+/* CTA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.CTA-content{
+    background-color:#F3F3F3 ;
+    /* border-radius: ; */
+}
+
+.CTA-button{
+    background-color: #191A23;
+    /* border-radius: ; */
+}
+
+
+
+
+
+/* Case-Studies!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.Case-Studies h2{
+    background-color: #B9FF66;
+    /* border-radius: ; */
+}
+
+.Case-Studies-content{
+    background-color: #191A23;
+}
+
+.Case-Study p{
+    color:#FFFFFF
+}
+
+.Case-Study-button{
+    color:#B9FF66
+}
+
+
+
+
+
+
+/* Process!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.Process h2{
+    background-color: #B9FF66;
+    /* border-radius: ; */
+}
+
+.Process-item{
+    background-color: #F3F3F3;
+}
+
+
+
+
+
+
+/* Team!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.Team-item-title{
+    font-size: 20px;
+    line-height: 25.5px;
+    font-weight: 500;
+}
+
+.Team h2{
+    background-color: #B9FF66;
+    /* border-radius: ; */
+}
+
+.Team-button{
+    background-color: #191A23;
+    color:#FFFFFF
+}
+
+
+
+/* 
+Testimonials!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.Testimonials h2{
+    background-color: #B9FF66;
+    /* border-radius: ; */
+}
+
+
+
+
+
+/* Contacting!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.Contacting h2{
+    background-color: #B9FF66;
+    /* border-radius: ; */
+}
+
+.Contacting h3{
+    font-size: 16px;
+    line-height:28px;
+}
+
+.Contacting-Input{
+    color: #898989;
+}
+
+.Contacting-lastButton{
+    background-color: #191A23;
+    color: #FFFFFF;
+}
+
+
+
+/* footer!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.footer-flex1-list1-item a{
+    color:#FFFFFF;
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration: underline;
+}
+
+.page-footer{
+    background-color: #191A23;
+}
+
+.footer-flex2 p , .copyring , .policy , .footer-flex2-menu-input , .copyring , .policy{
+    color:#FFFFFF
+}
+
+.footer-flex2 h3{
+    background-color: #B9FF66;
+    font-size: 20px;
+    line-height: 25.5px;
+    font-weight: 500;
+}
+
+.footer-flex2-menu-button{
+    background-color: #B9FF66;
+    /* border-radius: 5%; */
+}
+
+.footer-flex2-menu-input{
+    border: 1px #FFFFFF solid; 
+    /* border-radius: 5%; */
+}
+
+
+
