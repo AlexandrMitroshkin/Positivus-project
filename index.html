@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -36,22 +38,23 @@
 
     <main class="main-content">
         <section class="Consultation">
-            <h1>Navigating the digital landscape for success</h1>
-            <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
-              
-            <a href="#" class="Consultation-button"> 
-                Book a consultation
-            </a>
+            <div class="Consultation-element">
+                <h1>Navigating the digital landscape for success</h1>
+                <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                
+                <a href="#" class="Consultation-button"> 
+                    Book a consultation
+                </a>
+            </div>
 
             <img class="Consultation-img" src="img/Illustration (1).svg" width="600.5" height="515" alt="cheerful loudspeaker meaning social media sharing">
         </section>
 
         <section class="Logotipes"> 
             <ul class="Logotipes-list">
-                <!-- <li class="Logotipes-item"><img src="img/Company logo (1).svg" width="124" height="32.5" alt="Logo of Amazon"></li> -->
+                <li class="Logotipes-item"><img src="img\Company logo.png" width="124" height="32.5" alt="Logo of Amazon"></li>
                 <li class="Logotipes-item"><img src="img/Vector (3).svg" width="126" height="27" alt="Logo of Dribble"></li>
-                <li class="Logotipes-item"><img src="img/Vector (3).svg" width="126" height="27" alt="Logo of Dribble"></li>
-                <!-- <li class="Logotipes-item"><img src="img/Company logo (2).svg" width="128" height="31.5" alt="Logo of Hubsport"></li> -->
+                <li class="Logotipes-item"><img src="img/Company logo (1).png" width="128.5" height="31.5" alt="Logo of Hubsport"></li>
                 <li class="Logotipes-item"><img src="img/Vector (3).svg" width="126" height="27" alt="Logo of Dribble"></li>
                 <li class="Logotipes-item"><img src="img/Vector (4).svg" width="145" height="34" alt="Logo of Notion "></li>
                 <li class="Logotipes-item"><img src="img/Vector (5).svg" width="125" height="30" alt="Logo of Netflix "></li>
@@ -60,121 +63,134 @@
         </section>
 
         <section class="Services">
-            <h2>Services</h2>
-            <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            <div class="Services-element">
+                <h2>Services</h2>
+                <p>At our digital marketing agency, we offer a range of services to help businesses grow and succeed online. These services include:</p>
+            </div>
 
             <div class="Services-grid">
                 <article class="Service Service-1">
-                    <h3 class="Service-title Service-1-title">
-                        <span class="Service-title-top Service-1-title-top">Search engine</span><br>
-                        <span class="Service-title-bottom Service-1-title-bottom">optimization</span>
-                    </h3>
+                    <div class="Service-element">
+                        <h3 class="Service-title Service-1-title">
+                            <span class="Service-title-top Service-1-title-top">Search engine</span>
+                            <span class="Service-title-bottom Service-1-title-bottom">optimization</span>
+                        </h3>
 
-                    <div class="Service-link">
-                        <a href="#" class="Service-arrow">
-                            <!-- <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information"> -->
-                            <img src="img/ebba05478f59c3d162343f5e825f0feb.png" width="41" height="41" alt="button for more information">
-                        </a> 
+                        <div class="Service-link">
+                            <a href="#" class="Service-arrow Service-arrow-1">
+                                <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information">
+                            </a> 
 
-                        <a href="#" class="Service-button Service-1-button">
-                            Learn more
-                        </a>
+                            <a href="#" class="Service-button Service-1-button">
+                                Learn more
+                            </a>
+                        </div>
                     </div>
-
+                    
                 <img class="Service-img Service-1-img" src="img/tokyo-magnifier-web-search-with-elements 2.svg" width="210" height="166">
                 </article>
 
                 <article class="Service Service-2">
-                    <h3 class="Service-title Service-2-title">
-                        <span class="Service-title-top Service-2-title-top">Pay-per-click</span><br>
-                        <span class="Service-title-bottom Service-2-title-bottom">advertising</span>
-                    </h3>
+                    <div class="Service-element">
+                        <h3 class="Service-title Service-2-title">
+                            <span class="Service-title-top Service-2-title-top">Pay-per-click</span>
+                            <span class="Service-title-bottom Service-2-title-bottom">advertising</span>
+                        </h3>
 
-                    <div class="Service-link">
-                        <a href="#" class="Service-arrow">
-                            <img src="img/ebba05478f59c3d162343f5e825f0feb.png" width="41" height="41" alt="button for more information">
-                        </a> 
+                        <div class="Service-link">
+                            <a href="#" class="Service-arrow Service-arrow-2">
+                                <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information">
+                            </a> 
 
-                        <a href="#" class="Service-button Service-2-button">
-                            Learn more
-                        </a>
+                            <a href="#" class="Service-button Service-2-button">
+                                Learn more
+                            </a>
+                        </div>
                     </div>
 
                 <img class="Service-img Service-2-img" src="img/tokyo-selecting-a-value-in-the-browser-window 1.svg" width="210" height="147.5">
                 </article>
 
                 <article class="Service Service-3">
-                    <h3 class="Service-title Service-3-title">
-                        <span class="Service-title-top Service-3-title-top">Social Media</span><br>
-                        <span class="Service-title-bottom Service-3-title-bottom">Marketing</span>
-                    </h3>
+                    <div class="Service-element">
+                        <h3 class="Service-title Service-3-title">
+                            <span class="Service-title-top Service-3-title-top">Social Media</span>
+                            <span class="Service-title-bottom Service-3-title-bottom">Marketing</span>
+                        </h3>
 
-                    <div class="Service-link">
-                        <a href="#" class="Service-arrow">
-                            <img src="img/ebba05478f59c3d162343f5e825f0feb.png" width="41" height="41" alt="button for more information">
-                        </a> 
+                        <div class="Service-link">
+                            <a href="#" class="Service-arrow Service-arrow-3">
+                                <img src="img/Arrow 1 (1).svg" width="20" height="25" alt="button for more information">
+                            </a> 
 
-                        <a href="#" class="Service-button Service-3-button">
-                            Learn more
-                        </a>
+                            <a href="#" class="Service-button Service-3-button">
+                                Learn more
+                            </a>
+                        </div>
                     </div>
 
-                <img class="Service-img Service-3-img" src="img/tokyo-browser-window-with-emoticon-likes-and-stars-around 2.svg" width="210" height="210">
+                    <img class="Service-img Service-3-img" src="img/tokyo-browser-window-with-emoticon-likes-and-stars-around 2.svg" width="210" height="210">
                 </article>
 
                 <article class="Service Service-4">
-                    <h3 class="Service-title Service-4-title">
-                        <span class="Service-title-top Service-4-title-top">Email</span><br>
-                        <span class="Service-title-bottom Service-4-title-bottom">Marketing</span>
-                    </h3>
+                    <div class="Service-element">
+                        <h3 class="Service-title Service-4-title">
+                            <span class="Service-title-top Service-4-title-top">Email</span>
+                            <span class="Service-title-bottom Service-4-title-bottom">Marketing</span>
+                        </h3>
 
-                    <div class="Service-link">
-                        <a href="#" class="Service-arrow">
-                            <img src="img/ebba05478f59c3d162343f5e825f0feb.png" width="41" height="41" alt="button for more information">
-                        </a> 
+                        <div class="Service-link">
+                            <a href="#" class="Service-arrow Service-arrow-4">
+                                <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information">
+                            </a> 
 
-                        <a href="#" class="Service-button Service-4-button">
-                            Learn more
-                        </a>
+                            <a href="#" class="Service-button Service-4-button">
+                                Learn more
+                            </a>
+                        </div>
                     </div>
 
-                <img class="Service-img Service-4-img" src="img/tokyo-sending-messages-from-one-place-to-another 1.svg" width="210" height="192.5">
+                    <img class="Service-img Service-4-img" src="img/tokyo-sending-messages-from-one-place-to-another 1.svg" width="210" height="192.5">
                 </article>
 
                 <article class="Service Service-5">
-                    <h3 class="Service-title Service-5-title">
-                        <span class="Service-title-top Service-5-title-top">Content</span><br>
-                        <span class="Service-title-bottom Service-5-title-bottom">Creation</span>
-                    </h3>
+                    <div class="Service-element">
+                        <h3 class="Service-title Service-5-title">
+                            <span class="Service-title-top Service-5-title-top">Content</span>
+                            <span class="Service-title-bottom Service-5-title-bottom">Creation</span>
+                        </h3>
 
-                    <div class="Service-link">
-                        <a href="#" class="Service-arrow">
-                            <img src="img/ebba05478f59c3d162343f5e825f0feb.png" width="41" height="41" alt="button for more information">
-                        </a> 
+                        <div class="Service-link">
+                            <a href="#" class="Service-arrow Service-arrow-5">
+                                <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information">
+                            </a> 
 
-                        <a href="#" class="Service-button Service-5-button">
-                            Learn more
-                        </a>
+                            <a href="#" class="Service-button Service-5-button">
+                                Learn more
+                            </a>
+                        </div>
                     </div>
 
-                <img class="Service-img Service-5-img" src="img/tokyo-many-browser-windows-with-different-information 1.svg" width="210" height="196">
+                    <img class="Service-img Service-5-img" src="img/tokyo-many-browser-windows-with-different-information 1.svg" width="210" height="196">
                 </article>
 
                 <article class="Service Service-6">
-                    <h3 class="Service-title Service-6-title">
-                        <span class="Service-title-top Service-6-title-top">Analytics and </span><br>
-                        <span class="Service-title-bottom Service-6-title-bottom">Tracking</span>
-                    </h3>
+                    <div class="Service-element">
+                        <h3 class="Service-title Service-6-title">
+                            <span class="Service-title-top Service-6-title-top">Analytics and </span>
+                            <span class="Service-title-bottom Service-6-title-bottom">Tracking</span>
+                        </h3>
 
-                    <div class="Service-link">
-                        <a href="#" class="Service-arrow">
-                            <img src="img/ebba05478f59c3d162343f5e825f0feb.png" width="41" height="41" alt="button for more information">
-                        <a href="#" class="Service-button Service-6-button">
-                            Learn more
-                        </a>
+                        <div class="Service-link">
+                            <a href="#" class="Service-arrow Service-arrow-6">
+                                <img src="img/Arrow 1 (1).svg" width="20" height="25" alt="button for more information">
+                            <a href="#" class="Service-button Service-6-button">
+                                Learn more
+                            </a>
+                        </div>
                     </div>
 
-                <img class="Service-img Service-6-img" src="img/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.svg" width="210" height="170">
+                    <img class="Service-img Service-6-img" src="img/tokyo-volumetric-analytics-of-different-types-in-web-browsers 2.svg" width="210" height="170">
                 </article>
             </div>
         </section>
@@ -182,48 +198,55 @@
         <section class="CTA">   
             <div class="CTA-content">
                 <!-- <p class="CTA-text-1">Let’s make things happen</p> -->
-                
-                <h2 class="CTA-title">Let’s make things happen</h2>
-                <p class="CTA-text-2">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
+                 <div class="CTA-content-imformation">
+                    <h2 class="CTA-title">Let’s make things happen</h2>
+                    <p class="CTA-text-1">Contact us today to learn more about how our digital marketing services can help your business grow and succeed online.</p>
 
-                <a class="CTA-button" href="#">
-                    Get your free proposal
-                </a>
+                    <a class="CTA-button" href="#">
+                        Get your free proposal
+                    </a>
+                </div>
 
                 <img class="CTA-img" src="img/Illustration (2).svg" width="359" height="394">
             </div>
         </section>
 
         <section class="Case-Studies">
-            <h2>Case Studies</h2>
-            <p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+            <div class="Case-Studies-element"> 
+                <h2>Case Studies</h2>
+                <p>Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+            </div>
 
             <div class="Case-Studies-content">
                 <article class="Case-Study">
-                    <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
+                    <div class="Case-Study-content">
+                        <p>For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
 
-                    <div class="Case-Study-link">
-                        <a href="#" class="Case-Study-button">
-                            Learn more
-                        </a>
+                        <div class="Case-Study-link">
+                            <a href="#" class="Case-Study-button">
+                                Learn more
+                            </a>
 
-                        <a href="#" class="Case-Study-arrow">
-                            <img src="img/Arrow 1.svg" width="20" height="20" alt="button for more information">
-                        </a> 
+                            <a href="#" class="Case-Study-arrow">
+                                <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information">
+                            </a> 
+                        </div>
                     </div>
                 </article>
 
                 <article class="Case-Study">
-                    <p>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
+                    <div class="Case-Study-content">
+                        <p>For a B2B software company, we developed an SEO strategy that resulted in a first page ranking for key keywords and a 200% increase in organic traffic.</p>
 
-                    <div class="Case-Study-link">
-                        <a href="#" class="Case-Study-button">
-                            Learn more
-                        </a>
+                        <div class="Case-Study-link">
+                            <a href="#" class="Case-Study-button">
+                                Learn more
+                            </a>
 
-                        <a href="#" class="Case-Study-arrow">
-                            <img src="img/Arrow 1.svg" width="20" height="20" alt="button for more information">
-                        </a> 
+                            <a href="#" class="Case-Study-arrow">
+                                <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information">
+                            </a> 
+                        </div>
                     </div>
                 </article>
 
@@ -232,11 +255,11 @@
 
                     <div class="Case-Study-link">
                         <a href="#" class="Case-Study-button">
-                            Learn more
+                                Learn more
                         </a>
 
                         <a href="#" class="Case-Study-arrow">
-                            <img src="img/Arrow 1.svg" width="20" height="20" alt="button for more information">
+                            <img src="img/Arrow 1.svg" width="20" height="25" alt="button for more information">
                         </a> 
                     </div>
                 </article>

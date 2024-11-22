@@ -40,7 +40,7 @@ h3{
 
 .page-header-nav-button{
     border:1px #191A23 solid;
-    /* border-radius: ; */
+    /* border-radius:10% ; */
 }
 
 
@@ -82,11 +82,11 @@ h3{
     background-color:#191A23;
 }
 
-.Service-1-title , .Service-4-title , .Service-6-title{
+.Service-1-title-top , .Service-1-title-bottom , .Service-4-title-top , .Service-4-title-bottom , .Service-6-title-top  ,.Service-6-title-bottom{
     background-color: #B9FF66;
-}
+} 
 
-.Service-3-title , .Service-6-title{ 
+.Service-3-title-top ,.Service-3-title-bottom  ,.Service-2-title-top  ,.Service-2-title-bottom ,.Service-5-title-top ,.Service-5-title-bottom{
     background-color: #FFFFFF;
 }
 
@@ -98,10 +98,22 @@ h3{
     color:#FFFFFF;
 }
 
+.Service-arrow-3 , .Service-arrow-6{
+    background-color: #FFFFFF;
+}
 
+.Service-arrow-1 , .Service-arrow-2 , .Service-arrow-4 , .Service-arrow-5{
+    background-color: #191A23;
+}
 
 
 /* CTA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
+.CTA-content-imformation h2{
+    font-size: 30px;
+    line-height: 38px;
+    font-weight: 500;
+}
 
 .CTA-content{
     background-color:#F3F3F3 ;
