@@ -67,27 +67,32 @@ h3{
 
 .Services h2{
     background-color: #B9FF66;
-    /* border-radius: ; */
+    border-radius:7px ;
 }
 
 .Service-1 , .Service-4{
     background-color:#F3F3F3 ;
+    border-radius: 45px;
 }
 
 .Service-2 , .Service-5{
     background-color: #B9FF66;
+    border-radius: 45px;
 }
 
 .Service-3 , .Service-6 {
     background-color:#191A23;
+    border-radius: 45px;
 }
 
 .Service-1-title-top , .Service-1-title-bottom , .Service-4-title-top , .Service-4-title-bottom , .Service-6-title-top  ,.Service-6-title-bottom{
     background-color: #B9FF66;
+    border-radius: 7px;
 } 
 
 .Service-3-title-top ,.Service-3-title-bottom  ,.Service-2-title-top  ,.Service-2-title-bottom ,.Service-5-title-top ,.Service-5-title-bottom{
     background-color: #FFFFFF;
+    border-radius: 7px;
 }
 
 .Service-1-button , .Service-2-button , .Service-4-button , .Service-5-button{
@@ -100,10 +105,12 @@ h3{
 
 .Service-arrow-3 , .Service-arrow-6{
     background-color: #FFFFFF;
+        border-radius: 50%;
 }
 
 .Service-arrow-1 , .Service-arrow-2 , .Service-arrow-4 , .Service-arrow-5{
     background-color: #191A23;
+        border-radius: 50%;
 }
 
 
@@ -117,13 +124,13 @@ h3{
 
 .CTA-content{
     background-color:#F3F3F3 ;
-    /* border-radius: ; */
+    border-radius:45px ;
 }
 
 .CTA-button{
     background-color: #191A23;
-    color:#FFFFFF
-    /* border-radius: ; */
+    color:#FFFFFF;
+    border-radius:14px ;
 }
 
 
@@ -134,11 +141,12 @@ h3{
 
 .Case-Studies h2{
     background-color: #B9FF66;
-    /* border-radius: ; */
+    border-radius:7px ;
 }
 
 .Case-Studies-content{
     background-color: #191A23;
+    border-radius: 45px;
 }
 
 .Case-Study p{
@@ -158,11 +166,12 @@ h3{
 
 .Process h2{
     background-color: #B9FF66;
-    /* border-radius: ; */
+    border-radius:7px ;
 }
 
 .Process-item{
     background-color: #F3F3F3;
+    border-radius: 45px;
 }
 
 .Process-item p{
@@ -171,12 +180,23 @@ h3{
     font-weight: 500;
 }
 
+.Process-item-button{
+    border:1px #191A23 solid;
+    border-radius: 50%;
+}
+
+
 
 
 
 /* Team!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
-.Team-item-title{
+.Team-item{
+    border:1px #191A23 solid;
+    border-radius: 45px;
+}
+
+.Team-item-information h3{
     font-size: 20px;
     line-height: 25.5px;
     font-weight: 500;
@@ -191,6 +211,23 @@ h3{
     background-color: #191A23;
     color:#FFFFFF
 }
+
+.Team-item-element-icon{
+    background-color: #191A23;
+    border-radius: 50%;
+}
+
+.Team-item-element{
+    border-bottom: 1px #000000 solid;
+}
+
+/* .Team-item-element{
+    text-decoration: underline;
+    text-decoration-color: #000000;
+    text-decoration-thickness:1px ;
+    text-underline-offset: 28px;
+    text-underline-position: under;
+} */
 
 
 
