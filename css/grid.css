@@ -360,23 +360,23 @@ body{
 }
 
 .Case-Study{
-    width: 350px;
+    width:350px;
     height: 186px;
     border-right: 1px #FFFFFF solid;
+    padding-right:64px;
+    padding-bottom:24px;
+    margin-right: 64px;
 }
 
 .Case-Study:last-child{
     width: 286px;
     height: 186px;
     border-right:none;
+    margin: 0;
+    padding: 0;
 }
 
-.Case-Study-content{
-    width: 286px;
-    height: 163px;
-}
-
-.Case-Study-content p ,.Case-Study p{
+.Case-Study p{
     margin: 0;
     margin-bottom: 20px;
 }

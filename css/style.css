@@ -139,6 +139,10 @@ h3{
 
 /* Case-Studies!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
+.Case-Study{
+    border-right:1px #FFFFFF solid;
+}
+
 .Case-Studies h2{
     background-color: #B9FF66;
     border-radius:7px ;
